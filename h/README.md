@@ -1,11 +1,3 @@
-# HYF_Final_Project
-Final project for the course HYF Front-End Developer.
-
-By:
-Majd Darraj
-Mila Manieva
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
