@@ -1,16 +1,31 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import JobList from "./components/JobList";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+        <header className="masthead">
+          <h1 className="header-logo">
+            <i class="fab fa-bandcamp" />
+            Jobify
+          </h1>
+          <nav className="navigation-bar">
+            <ul className="nav-container">
+              <li className="nav-item">
+                <a href="#">find job</a>
+              </li>
+              <li className="nav-item">
+                <a href="#">my resume</a>
+              </li>
+              <li className="nav-item my-page">
+                <a href="#">my page</a>
+              </li>
+            </ul>
+          </nav>
         </header>
-        <p className="App-intro">We are Awesome</p>
+        <JobList />
       </div>
     );
   }
