@@ -18,9 +18,9 @@ class App extends Component {
         
         {
           jobId:1,
-          title:'Project Management',
+          title:'Scandinavian Tobacco Group A/S',
           companyName:'Deloitte',
-          description:'blabalabla',
+          description:'This position is a key role within all STG companies and is responsible for sourcing and contract management of Indirect spend categories with a primary focus on Category Marketing Spend Management.Scandinavian Tobacco Group A/S.The role is directly responsible for all spend in the Category. Responsibility is end-to-end category spend including but not limited to: Develop category strategy, business case execution, influencing operations, business and finance leaders to comply with category strategic direction and leading cross-functional project teams through the sourcing process.At Scandinavian Tobacco Group, we welcome talented and competitive people, and reward them with outstanding career development, personal growth and leadership opportunities.',
           created:'24.09.2018',
           deadline: '18.10.2018'
         },
@@ -29,15 +29,15 @@ class App extends Component {
           jobId:2,
           title:'Baker',
           companyName:'Lagkagehuset',
-          description:'blabalabla',
+          description:'Are you a trained baker? And do you want to stand for production at our Viennese bread line - and make sure the machine is not in a cake? Nordens Brød produces a wide range of bakery and confectionery products for supermarket chains, filling stations, air catering and food service. In addition, we own the chains Holms Bager and Brødflov and Lagkagehuset. At Kastrup in Amager we have 5 production units where you become part of the pastry department and work closely with especially 5 other colleagues. The main task is to ensure that our computer-driven process line for Viennese bread is running as it should. If you are drowning on the plant and if you encounter problems, turn on the machine and prevent the crash. In addition, you work closely with the bakers and help if needed.',
           created:'24.09.2018',
           deadline: '17.10.2018'
         },
         {
           jobId:3,
-          title:'Dance teacher',
-          companyName:'Studentehuset',
-          description:'blabalabla',
+          title:'Sales Team Lead',
+          companyName:'To Good To Go',
+          description:'One third of all food produced is wasted. We’re on a mission to change that!Too Good To Go is a mobile app which reduces food waste by making surplus food from cafés, restaurants and supermarkets available to users. Our users purchase food through the app, collect locally and enjoy knowing they are saving food, money - and the planet.We’re looking for a passionate Sales Team Lead for our team of 4 sales representatives as a playing coach. We work with a combination of phone and field sales, and we expect you to sign new stores yourself, while coaching the team to top-performance.',
           created:'12.09.2018',
           deadline: '12.11.2018'
         }        
