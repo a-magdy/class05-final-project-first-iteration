@@ -7,20 +7,26 @@ class App extends Component {
     return (
       <div className="App">
         <header className="masthead">
-          <h1 className="header-logo">
+          <h1 className="site-branding">
             <i class="fab fa-bandcamp" />
             Jobify
           </h1>
-          <nav className="navigation-bar">
+          <nav className="header-menu">
             <ul className="nav-container">
               <li className="nav-item">
-                <a href="#">find job</a>
+                <a href="#link" alt="find job">
+                  find job
+                </a>
               </li>
               <li className="nav-item">
-                <a href="#">my resume</a>
+                <a href="#link" alt="resume page">
+                  my resume
+                </a>
               </li>
               <li className="nav-item my-page">
-                <a href="#">my page</a>
+                <a href="#link" alt="personal page">
+                  my page
+                </a>
               </li>
             </ul>
           </nav>
