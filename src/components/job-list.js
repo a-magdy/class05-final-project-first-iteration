@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import JobItem from "./JobItem";
+import JobItem from "./job-item";
 import JobsState from "../states/JobsState";
 
 class JobList extends Component {

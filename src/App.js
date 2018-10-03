@@ -5,7 +5,7 @@ import "./App.css";
 
 // components
 import Header from "./components/Header";
-import JobList from "./components/JobList";
+import JobList from "./components/job-list";
 
 class App extends Component {
   render() {
