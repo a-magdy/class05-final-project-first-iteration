@@ -3,10 +3,9 @@ class Header extends Component {
   render() {
     return (
       <header className="masthead">
-        <h1 className="site-branding">
-          <i className="fab fa-bandcamp" />
-          Jobify
-        </h1>
+        <a className="site-branding" href="index.html">
+          <img src ="https://raw.githubusercontent.com/HackYourFuture-CPH/class05-final-project/master/images/thread-logo.png"/>
+         </a>
         <nav className="header-menu">
           <ul className="nav-container">
             <li className="nav-item">

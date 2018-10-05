@@ -3,8 +3,9 @@
 
 body {
   box-sizing: border-box;
-  background-color: #eee;
+  background-color:;
   font-family: "Comfortaa", sans-serif;
+  background-image: url("https://cdn-images-1.medium.com/max/1200/1*eHJmi0Cw-UKclhAfocv_GA.png")
 }
 
 .bold {
@@ -21,21 +22,24 @@ body {
   padding: 0px 20px 0px 40px;
   min-height: 50px;
   background-color: #fff;
-  color: #a1b4ba;
+  color: #b6353f;
   border-bottom: #ddd 1px solid;
 }
 
 .site-branding {
-  display: flex;
-  align-items: center;
-  font-size: 1.3em;
+  font-size: 0,5em;
   padding: 0;
   margin: 0;
   transition: all 0.4s ease-in-out;
+  max-height:45px;
+}
+
+.site-branding img {
+  max-height: 89px;
 }
 
 .site-branding:hover {
-  color: #5184f3;
+  color: #b6353f;
 }
 
 .fa-user {
@@ -45,7 +49,7 @@ body {
 .fa-bandcamp {
   margin: 0 6px 2px 0;
   font-size: 2rem;
-  color: #5184f3;
+  color: #b6353f;
   transition: all 0.3s ease-in-out;
 }
 
@@ -80,8 +84,8 @@ body {
 .nav-container a:hover,
 .nav-container a:hover {
   /* background-color: #a1b4ba; */
-  color: #5184f3;
-  /* border-bottom: 2px #5184f3 solid; */
+  color: #b6353f;
+  /* border-bottom: 2px #b6353f solid; */
   font-weight: 700;
   /* border-bottom: 2px #a1b4ba solid; */
   /* border-right: 2px #a1b4ba solid; */
@@ -109,7 +113,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
-  color: #5184f3;
+  color:yellowgreen;
   padding: 0;
   text-align: left;
   height: 100%;
@@ -186,8 +190,6 @@ body {
 
 .job-item-info {
   padding: 20px 40px 10px 30px;
-  border: 1px solid #5184f381;
-  border-bottom: 1px solid #5184f334;
   border-top: none;
 }
 
@@ -253,7 +255,6 @@ body {
   justify-content: space-evenly;
   align-content: center;
   align-items: center;
-  border: 1px solid #5184f381;
   border-top: none;
   border-bottom-right-radius: 9px;
   border-bottom-left-radius: 9px;
@@ -276,7 +277,7 @@ body {
 }
 
 .job-links .job-read-more {
-  border-right: 1px solid #5184f334;
+  border-right: 1px solid #b6353f34;
 }
 
 .job-links .job-read-more:hover {
