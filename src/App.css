@@ -281,11 +281,11 @@ body {
 }
 
 .job-links .job-read-more:hover {
-  background-color: #274fa5;
+  background-color: #FF6347;;
   color: #fff;
 }
 
 .job-links .job-apply:hover {
-  background-color: #44af5c;
+  background-color: #FF6347;
   color: #fff;
 }
