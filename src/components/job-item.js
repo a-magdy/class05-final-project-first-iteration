@@ -48,10 +48,6 @@ class JobItem extends Component {
           <a href="#link" className="job-read-more" alt="read more">
             read more
           </a>
-          <div class="vl" />
-          <a href="#link" className="job-apply" alt="apply for job">
-            apply
-          </a>
         </div>
       </div>
     );
