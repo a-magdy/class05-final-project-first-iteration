@@ -9,23 +9,28 @@ class Header extends Component {
         <nav className="header-menu">
           <ul className="nav-container">
             <li className="nav-item">
-              <a href="#link" alt="find job">
-                find job
+              <a href="#link" alt="home">
+                Home
               </a>
             </li>
             <li className="nav-item">
-              <a href="#link" alt="resume page">
-                my resume
+              <a href="#link" alt="interships">
+                Interships
               </a>
             </li>
-            <li className="nav-item my-page">
-              <a href="#link" alt="personal page">
-                my page
+            <li className="nav-item events">
+              <a href="#link" alt="events">
+                Events
               </a>
             </li>
             <li>
-              <a href="#link" alt="personal page">
-                <i class="fas fa-user" />
+              <a href="#link" alt="mentors">
+              Mentors
+              </a>
+            </li>
+            <li className="nav-item networking">
+              <a href="#link" alt="networking">
+                Networking
               </a>
             </li>
           </ul>
