@@ -3,9 +3,9 @@
 
 body {
   box-sizing: border-box;
-  background-color:;
+  background-color: ;
   font-family: "Comfortaa", sans-serif;
-  background-image: url("https://cdn-images-1.medium.com/max/1200/1*eHJmi0Cw-UKclhAfocv_GA.png")
+  background-image: url("https://cdn-images-1.medium.com/max/1200/1*eHJmi0Cw-UKclhAfocv_GA.png");
 }
 
 .bold {
@@ -27,11 +27,11 @@ body {
 }
 
 .site-branding {
-  font-size: 0,5em;
+  font-size: 0, 5em;
   padding: 0;
   margin: 0;
   transition: all 0.4s ease-in-out;
-  max-height:45px;
+  max-height: 45px;
 }
 
 .site-branding img {
@@ -92,15 +92,15 @@ body {
 }
 
 /* ----------------------------
-      JOB LIST CONTAINER
+      internship LIST CONTAINER
 ----------------------------*/
-.job-list-container {
+.internship-list-container {
   padding: 20px 0 100px 0;
   margin: 0 auto;
   max-width: 80%;
 }
 
-.job-list {
+.internship-list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -108,12 +108,12 @@ body {
   margin: 20px;
 }
 
-.job-item {
+.internship-item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
-  color:yellowgreen;
+  color: yellowgreen;
   padding: 0;
   text-align: left;
   height: 100%;
@@ -127,16 +127,16 @@ body {
   overflow: hidden;
 }
 
-.job-item:not(:first-child) {
+.internship-item:not(:first-child) {
   margin-top: 2em;
 }
 
-.job-item:hover {
+.internship-item:hover {
   box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.2);
   transform: translateY(-3px);
 }
 
-.job-branding {
+.internship-branding {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -147,7 +147,7 @@ body {
   overflow: hidden;
 }
 
-.job-branding .job-branding-logo {
+.internship-branding .internship-branding-logo {
   display: flex;
   justify-content: flex-start;
   align-content: center;
@@ -164,7 +164,7 @@ body {
   padding-left: 2em;
 }
 
-.job-branding .job-branding-logo img {
+.internship-branding .internship-branding-logo img {
   width: auto;
   height: 70%;
   opacity: 1;
@@ -172,13 +172,13 @@ body {
   filter: drop-shadow(0px 5px 15px rgba(179, 207, 248, 0.76));
 }
 
-.job-branding .job-item-image {
+.internship-branding .internship-item-image {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 
-.job-branding .job-item-image img {
+.internship-branding .internship-item-image img {
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2));
   overflow: hidden;
   width: 100%;
@@ -188,40 +188,40 @@ body {
   top: 20%;
 }
 
-.job-item-info {
+.internship-item-info {
   padding: 20px 40px 10px 30px;
   border-top: none;
 }
 
-.job-item-image {
+.internship-item-image {
   width: 20%;
 }
 
-.job-item-image img {
+.internship-item-image img {
   padding: 0;
   margin: 0;
   height: 100%;
 }
 
-.job-item .job-title {
+.internship-item .internship-title {
   font-size: 1.4rem;
   line-height: 0.7rem;
   color: #274fa5;
 }
 
-.job-item .job-company {
+.internship-item .internship-company {
   font-size: 0.9rem;
   color: rgba(2, 33, 66, 0.5);
 }
 
-.job-item .job-description {
+.internship-item .internship-description {
   font-family: "Raleway", sans-serif;
   font-size: 0.9rem;
   color: rgba(1, 39, 80, 0.8);
   line-height: 1.4rem;
 }
 
-.job-item .job-dates {
+.internship-item .internship-dates {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -232,7 +232,7 @@ body {
   padding-bottom: 10px;
 }
 
-.job-item .job-dates p {
+.internship-item .internship-dates p {
   font-family: "Raleway", sans-seriaf;
   font-size: 0.7rem;
   color: rgba(255, 255, 255, 0.541);
@@ -246,11 +246,11 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.job-item .job-dates p.job-deadline {
+.internship-item .internship-dates p.internship-deadline {
   color: #ff4151bd;
 }
 
-.job-links {
+.internship-links {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
@@ -260,11 +260,11 @@ body {
   border-bottom-left-radius: 9px;
 }
 
-.job-item .job-dates p:hover {
+.internship-item .internship-dates p:hover {
   transform: scale(1.2);
 }
 
-.job-links a {
+.internship-links a {
   padding: 15px 0;
   width: 100%;
   text-decoration: none;
@@ -276,16 +276,16 @@ body {
   transition: all 0.5s ease-in-out;
 }
 
-.job-links .job-read-more {
+.internship-links .internship-read-more {
   border-right: 1px solid #b6353f34;
 }
 
-.job-links .job-read-more:hover {
-  background-color: #FF6347;;
+.internship-links .internship-read-more:hover {
+  background-color: #ff6347;
   color: #fff;
 }
 
-.job-links .job-apply:hover {
-  background-color: #FF6347;
+.internship-links .internship-apply:hover {
+  background-color: #ff6347;
   color: #fff;
 }
