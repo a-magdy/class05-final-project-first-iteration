@@ -17,12 +17,14 @@ class InternshipList extends Component {
       <div className="internship-list-container">
         <div className="internship-list">
           {this.state.InternshipData.map(internship => {
-            console.log(internship);
             return (
               <InternshipItem
-                internship_title={internship.internship_title}
+                title={internship.internship_title}
                 id={internship.id}
                 key={internship.id}
+                category={internship.internship_category}
+                organisation_name={internship.organisation_name}
+                organisation_description={internship.organisation_description}
               />
             );
           })}
