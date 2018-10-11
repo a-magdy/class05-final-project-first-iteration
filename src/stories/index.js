@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import "../App.css";
@@ -11,4 +10,3 @@ import Header from "../components/Header";
 
 // Buttons Story
 storiesOf("Header", module).add("Navigation", () => <Header />);
-
