@@ -19,8 +19,8 @@
     "build-storybook": "build-storybook -s public"
   },
   "devDependencies": {
-    "@storybook/react": "^3.4.11",
     "@storybook/addon-actions": "^3.4.11",
-    "@storybook/addon-links": "^3.4.11"
+    "@storybook/addon-links": "^3.4.11",
+    "@storybook/react": "^3.4.11"
   }
 }
