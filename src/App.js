@@ -5,14 +5,14 @@ import "./App.css";
 
 // components
 import Header from "./components/Header";
-import JobList from "./components/job-list";
+import InternshipList from "./components/internship/InternshipList";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-        <JobList />
+        <InternshipList />
       </div>
     );
   }
