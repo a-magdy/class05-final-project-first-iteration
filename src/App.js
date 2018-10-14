@@ -5,6 +5,7 @@ import "./App.css";
 
 // components
 import Header from "./components/Header";
+import Map from "./components/Map";
 import InternshipList from "./components/internship/InternshipList";
 
 class App extends Component {
@@ -13,7 +14,8 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="page-content-container">
-          <InternshipList />
+          {/* <InternshipList /> */}
+          <Map mapCenter={{ lat: 55.676098, lng: 12.568337 }} Zoom={10} />
         </div>
       </div>
     );
