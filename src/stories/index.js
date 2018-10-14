@@ -14,3 +14,7 @@ import './footerpage'
 import "./Select";
 import "./TextInput";
 
+import "./button";
+import "./welcome";
+import "./mapcomponent";
+import "./sidebar";
