@@ -5,6 +5,7 @@ body {
   box-sizing: border-box;
   background-color: ;
   font-family: "Comfortaa", sans-serif;
+  background-image: url("https://cdn-images-1.medium.com/max/1200/1*eHJmi0Cw-UKclhAfocv_GA.png");
 }
 
 .page-content-container {
@@ -293,3 +294,85 @@ body {
   background-color: #ff6347;
   color: #fff;
 }
+
+/* ----------------------------
+      Mentor LIST CONTAINER
+----------------------------*/
+
+.mentor-list-container {
+  padding: 20px 0 100px 0;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.mentor-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.mentor-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  color: yellowgreen;
+  padding: 0;
+  text-align: left;
+  height: 100%;
+  min-width: 80%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transform: translateY(0);
+  transition: all 0.2s ease-in-out;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mentor-item-info {
+  padding: 20px 40px 10px 30px;
+  border-top: none;
+}
+
+
+.mentor-item-image {
+  width: 20%;
+}
+
+.mentor-item-image img {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.mentor-item .mentor-first-name {
+  font-size: 1.4rem;
+  line-height: 0.7rem;
+  color: #274fa5;
+}
+
+.mentor-item .mentor-last-name {
+  font-size: 1.4rem;
+  line-height: 0.7rem;
+  color: #274fa5;
+}
+
+.mentor-item .mentor-email {
+  font-size: 0.9rem;
+  color: rgba(2, 33, 66, 0.5);
+}
+
+.mentor-item .internship-description {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  color: rgba(1, 39, 80, 0.8);
+  line-height: 1.4rem;
+}
+
+.mentor-item:hover {
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+

@@ -8,12 +8,15 @@ import { linkTo } from "@storybook/addon-links";
 
 import Header from "../components/Header";
 import InternshipList from "../components/internship/InternshipList";
-
+import MentorList from "../components/mentors/MentorList"
 // Buttons Story
 storiesOf("Static", module)
   .add("Header", () => <Header />)
   .add("Footer", () => <h1>Footer</h1>);
-storiesOf("Pages", module).add("InternshipList", () => <InternshipList />);
+storiesOf("Pages", module)
+.add("InternshipList", () => <InternshipList />)
+.add("MentorList",() => <MentorList />)
+.add("EventsList",() => <EventsList />);
 storiesOf("Buttons and Input", module)
   .add("Buttons", () => <h1>buttons</h1>)
   .add("Search Input", () => <h1>Search</h1>)
