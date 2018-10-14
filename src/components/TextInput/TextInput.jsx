@@ -25,11 +25,6 @@ class TextInput extends Component {
       <div>
         <form onSubmit={this.handleSubmit}>
           <div className="input-container">
-            <FontAwesomeIcon
-              icon={faSearch}
-              className="icon"
-              onClick={this.handleSubmit}
-            />
             <input
               className="input-field"
               type="text"
