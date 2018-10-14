@@ -1,0 +1,21 @@
+.select-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 300px;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+select:focus {
+  border: 2px solid dodgerblue;
+}
